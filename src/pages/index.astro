@@ -15,50 +15,234 @@ import { SITE_DESCRIPTION, SITE_TITLE } from '../consts';
 		<Header />
 
 		<main>
-			<section>
-				<p>Startup Finance for Africa</p>
+			<section class="hero">
+				<p class="eyebrow">Startup Finance for Africa — Available Globally</p>
 
-				<h1>Financial Modeling for African Startups</h1>
+				<h1>Financial Modeling for Founders Who Need Clarity</h1>
 
-				<p>
-					Build a clear, investor-ready financial model for your startup.
-					Understand your revenue, costs, runway, funding needs, and growth
-					scenarios before making major decisions.
+				<p class="lead">
+					Build a practical, investor-ready financial model that helps you
+					understand revenue, costs, runway, funding needs, and growth scenarios.
 				</p>
 
 				<p>
-					I help African founders turn their business assumptions into
-					practical financial models for fundraising and business planning.
+					I help startup founders turn business assumptions into clear financial
+					models for fundraising, planning, and better decision-making.
 				</p>
 
-				<a href="/contact/">Get Your Financial Model Built</a>
+				<div class="hero-actions">
+					<a class="primary-button" href="/contact/">
+						Get Your Financial Model Built
+					</a>
+
+					<a class="secondary-button" href="/financial-modeling/">
+						See Financial Modeling Services
+					</a>
+				</div>
 			</section>
 
 			<section>
-				<h2>Financial Modeling Services</h2>
+				<p class="eyebrow">Services</p>
 
-				<ul>
-					<li>Startup financial models</li>
-					<li>Revenue and expense forecasting</li>
-					<li>Cash flow and runway planning</li>
-					<li>Fundraising scenarios</li>
-					<li>Unit economics</li>
-					<li>Financial model reviews</li>
-				</ul>
+				<h2>Financial Modeling Support for Startups</h2>
+
+				<div class="service-grid">
+					<div>
+						<h3>Financial Models</h3>
+						<p>
+							Build structured startup models covering revenue, expenses,
+							cash flow, and growth assumptions.
+						</p>
+					</div>
+
+					<div>
+						<h3>Runway & Cash Planning</h3>
+						<p>
+							Understand how long your cash may last and what funding your
+							startup may need.
+						</p>
+					</div>
+
+					<div>
+						<h3>Fundraising Scenarios</h3>
+						<p>
+							Model different fundraising and growth scenarios before
+							speaking with investors.
+						</p>
+					</div>
+
+					<div>
+						<h3>Unit Economics</h3>
+						<p>
+							Understand customer economics, margins, pricing assumptions,
+							and how your business can scale.
+						</p>
+					</div>
+
+					<div>
+						<h3>Forecasting</h3>
+						<p>
+							Create practical revenue and expense forecasts based on your
+							business model and assumptions.
+						</p>
+					</div>
+
+					<div>
+						<h3>Model Reviews</h3>
+						<p>
+							Have an existing model reviewed for structure, assumptions,
+							clarity, and decision usefulness.
+						</p>
+					</div>
+				</div>
+
+				<a href="/financial-modeling/">Explore Financial Modeling Services →</a>
 			</section>
 
 			<section>
-				<h2>African Startup Finance Insights</h2>
+				<p class="eyebrow">Why It Matters</p>
+
+				<h2>Know Your Numbers Before the Big Decisions</h2>
 
 				<p>
-					Read practical insights about startup finance, fundraising,
-					financial modeling, and funding developments across Africa.
+					A financial model should do more than produce projections. It should
+					help you understand what drives your business, where your biggest risks
+					are, and what needs to happen for your startup to reach its goals.
+				</p>
+			</section>
+
+			<section>
+				<p class="eyebrow">Insights</p>
+
+				<h2>Startup Finance Insights</h2>
+
+				<p>
+					Read practical analysis on financial modeling, fundraising, startup
+					finance, and funding developments, with particular attention to
+					African startup ecosystems.
 				</p>
 
-				<a href="/blog/">Read the latest insights →</a>
+				<a href="/blog/">Read the Latest Insights →</a>
+			</section>
+
+			<section class="final-cta">
+				<h2>Need Help Building Your Startup Financial Model?</h2>
+
+				<p>
+					Tell me about your startup, what you are planning, and the financial
+					questions you need answered.
+				</p>
+
+				<a href="/contact/">Request a Financial Modeling Consultation</a>
 			</section>
 		</main>
 
 		<Footer />
 	</body>
 </html>
+
+<style>
+	.hero {
+		padding: 3.5rem 2.5rem;
+	}
+
+	.eyebrow {
+		margin-bottom: 0.75rem;
+		color: #0f766e;
+		font-weight: 700;
+		font-size: 0.9rem;
+		letter-spacing: 0.08em;
+		text-transform: uppercase;
+	}
+
+	.lead {
+		max-width: 760px;
+		font-size: 1.25rem;
+		color: #334155;
+	}
+
+	.hero-actions {
+		display: flex;
+		gap: 1rem;
+		flex-wrap: wrap;
+		margin-top: 1.75rem;
+	}
+
+	.hero-actions a {
+		padding: 0.9rem 1.25rem;
+		border-radius: 10px;
+		font-weight: 700;
+		text-decoration: none;
+	}
+
+	.primary-button {
+		background: #0f766e;
+		color: white;
+	}
+
+	.primary-button:hover {
+		background: #115e59;
+		color: white;
+	}
+
+	.secondary-button {
+		border: 1px solid #0f766e;
+		background: white;
+		color: #0f766e;
+	}
+
+	.secondary-button:hover {
+		background: #f0fdfa;
+		color: #115e59;
+	}
+
+	.service-grid {
+		display: grid;
+		grid-template-columns: repeat(2, minmax(0, 1fr));
+		gap: 1rem;
+		margin: 2rem 0;
+	}
+
+	.service-grid div {
+		padding: 1.25rem;
+		border: 1px solid #dbe5e3;
+		border-radius: 14px;
+		background: #f8fbfa;
+	}
+
+	.service-grid h3 {
+		margin-bottom: 0.5rem;
+	}
+
+	.service-grid p {
+		margin-bottom: 0;
+	}
+
+	.final-cta {
+		text-align: center;
+	}
+
+	.final-cta p {
+		max-width: 700px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	@media (max-width: 720px) {
+		.hero {
+			padding: 2rem 1.4rem;
+		}
+
+		.service-grid {
+			grid-template-columns: 1fr;
+		}
+
+		.hero-actions {
+			flex-direction: column;
+		}
+
+		.hero-actions a {
+			text-align: center;
+		}
+	}
+</style>
