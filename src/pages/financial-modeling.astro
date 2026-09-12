@@ -1,0 +1,83 @@
+---
+import BaseHead from '../components/BaseHead.astro';
+import Footer from '../components/Footer.astro';
+import Header from '../components/Header.astro';
+import { SITE_DESCRIPTION } from '../consts';
+---
+
+<!doctype html>
+<html lang="en">
+	<head>
+		<BaseHead
+			title="Financial Modeling | Africa Startup Finance"
+			description={SITE_DESCRIPTION}
+		/>
+	</head>
+
+	<body>
+		<Header />
+
+		<main>
+			<section>
+				<p>Startup Finance for Africa</p>
+
+				<h1>Financial Modeling for African Startups</h1>
+
+				<p>
+					I help African founders build practical financial models
+					for fundraising, planning, and smarter business decisions.
+				</p>
+
+				<a href="/contact/">
+					Request a Financial Model Consultation
+				</a>
+			</section>
+
+			<section>
+				<h2>Financial Modeling Services</h2>
+
+				<ul>
+					<li>Startup financial models</li>
+					<li>Revenue and expense forecasting</li>
+					<li>Cash flow and runway planning</li>
+					<li>Fundraising scenarios</li>
+					<li>Unit economics analysis</li>
+					<li>Financial model reviews</li>
+				</ul>
+			</section>
+
+			<section>
+				<h2>Who I Help</h2>
+
+				<p>
+					I work with African startups and founders who need
+					clarity around their numbers, growth plans, and funding needs.
+				</p>
+			</section>
+
+			<section>
+				<h2>Why Financial Modeling Matters</h2>
+
+				<p>
+					A strong financial model helps founders understand their
+					funding needs, manage cash, plan growth, and communicate
+					confidently with investors.
+				</p>
+			</section>
+
+			<section>
+				<h2>Africa Startup Finance Insights</h2>
+
+				<p>
+					Read practical insights about startup finance,
+					fundraising, financial modeling, and funding developments
+					across Africa.
+				</p>
+
+				<a href="/blog/">Read the latest insights →</a>
+			</section>
+		</main>
+
+		<Footer />
+	</body>
+</html>
