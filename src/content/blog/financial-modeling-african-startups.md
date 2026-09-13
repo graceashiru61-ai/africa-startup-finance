@@ -2,7 +2,7 @@
 title: "Financial Modeling for African Startups: A Practical Guide"
 description: "How African founders can use financial models for planning, fundraising, and growth."
 pubDate: 2026-09-07
-heroImage: "../../assets/blog-placeholder-1.jpg"
+heroImage: "../../assets/startup-finance-hero.png"
 ---
 
 A financial model is one of the most important tools a startup founder can have.
